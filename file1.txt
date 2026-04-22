@@ -2,3 +2,4 @@ Hello world!!!123
 Good bye!
 Line from user1
 Good evening! (from branch master)
+Line from user2
