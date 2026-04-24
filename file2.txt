@@ -9,3 +9,4 @@ Another line from user2
 5 123qwe
 Critical bug fixed
 Line from user2 - lesson about rebase
+Test rebase
