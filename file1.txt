@@ -4,5 +4,6 @@ Line from user1
 Good evening! (from branch master)
 Line from user2
 Some new feature456
+Some new feature123
 Line from user1 - lesson about rebase
 
