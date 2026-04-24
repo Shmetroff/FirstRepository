@@ -1,1 +1,2 @@
 Hello!
+Only for test fast-forward merge
