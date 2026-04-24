@@ -10,3 +10,4 @@ Another line from user2
 Critical bug fixed
 Line from user2 - lesson about rebase
 Test rebase
+Another critical bug fixed
