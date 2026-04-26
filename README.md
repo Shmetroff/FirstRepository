@@ -246,10 +246,12 @@ ___
 [code]: https://skillbox.ru/media/code/
 
 ## Изображения (Images):
+### Базовый синтаксис
 Изображения в Markdown оформляются по принципу, схожему с принципом оформления ссылкок, только перед квадратными скобками нужно поставить восклицательный знак: !\[текст](путь к изображению). Здесь также можно сделать всплывающую подсказку.
 
 ![Изображение](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1920px-Markdown-mark.svg.png "Логотип Markdown")
 
+### Cправочный метод
 Можно использовать и справочный метод: ![текст][имя сноски]. Сноски оформляются так же, как и в ссылках: [имя сноски]: путь к изображению, — в них тоже можно добавлять подсказки.
 
 ![Изображение][2]
@@ -257,6 +259,11 @@ ___
 
 [2]: https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1920px-Markdown-mark.svg.png "Логотип Markdown"
 Такая разметка выведет тот же результат, что и предыдущая.
+
+### Ссылка-картинка
+Чтобы сделать изображение кликабельным (ссылкой), оберните его в квадратные скобки и добавьте ссылку в круглых \[\!\[Alt Text](ImageURL)](DestinationURL)
+
+[![Ссылка-картинка](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1920px-Markdown-mark.svg.png "Логотип Markdown")](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1920px-Markdown-mark.svg.png)
 
 ## Код (Code):
 В Markdown есть несколько способов выделить исходный код:
